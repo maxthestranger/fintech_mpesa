@@ -85,7 +85,7 @@ export default function Home() {
                 id="account"
               >
                 <option selected disabled>
-                  Choose currency
+                  Choose Account
                 </option>
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
