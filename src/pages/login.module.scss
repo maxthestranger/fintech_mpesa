@@ -1,0 +1,12 @@
+.full__screen {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  max-width: 40%;
+  margin: 0 auto;
+}

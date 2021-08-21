@@ -1,0 +1,37 @@
+.shadow {
+  box-shadow: 0px 3px 1px rgba(107, 107, 129, 0.041);
+}
+
+.notification {
+  background: #ffffff;
+  border: 1px solid #e7e9f5;
+  border-radius: 50% !important;
+  max-width: 43px;
+  max-height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  i {
+    color: #8485b5;
+  }
+  &:hover > i {
+    color: #50449c;
+  }
+  &:hover {
+    border-color: #50449c59;
+  }
+}
+
+.btn {
+  max-width: 43px;
+  max-height: 43px;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  background: #50449c;
+  color: #fff;
+  border: none;
+}
