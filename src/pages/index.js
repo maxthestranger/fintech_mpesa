@@ -64,7 +64,7 @@ export default function Home() {
                 aria-label="account select"
                 id="recipient"
               >
-                <option selected disabled>
+                <option defaultValue disabled>
                   Choose by name
                 </option>
                 <option value="USD">
@@ -84,7 +84,7 @@ export default function Home() {
                 aria-label="account select"
                 id="account"
               >
-                <option selected disabled>
+                <option defaultValue disabled>
                   Choose Account
                 </option>
                 <option value="USD">USD</option>
@@ -101,7 +101,7 @@ export default function Home() {
                 aria-label="currency select"
                 id="currency"
               >
-                <option selected disabled>
+                <option defaultValue disabled>
                   Choose currency
                 </option>
                 <option value="USD">USD</option>

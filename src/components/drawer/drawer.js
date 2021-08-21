@@ -12,9 +12,9 @@ const Drawer = ({ visibility, toggleDrawer, children }) => {
         style={visibility ? { visibility: 'visible' } : { visibility: 'none' }}
       >
         <div className="offcanvas-header">
-          <h5 id="offcanvasRightLabel">
+          <div id="offcanvasRightLabel">
             <Title title="New Payment" />
-          </h5>
+          </div>
           <button
             type="button"
             className="btn-close text-reset"
