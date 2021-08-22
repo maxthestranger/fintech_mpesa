@@ -15,29 +15,27 @@ const Table = () => {
         <tbody>
           <tr>
             <td data-label="From">
-              <span className="text-heading font-semibold">Robert Fox</span>
+              <span className="text-heading font-semibold">Sys Admin</span>
             </td>
             <td data-label="To">
-              <span className="text-heading font-semibold">
-                Massai Furgerson
-              </span>
+              <span className="text-heading font-semibold">Allan Calton</span>
             </td>
             <td data-label="Value">
               <span className="badge bg-soft-success text-success">
-                +102.00
+                +1,000.00
               </span>
             </td>
             <td data-label="Currency">
               <span className="text-current">USD</span>
             </td>
             <td data-label="Created At">
-              <span className="text-current">Apr, 21, 2021 09:47</span>
+              <span className="text-current">Aug, 22, 2021 07:12</span>
             </td>
             <td data-label="Updated At">
-              <span className="text-current">Apr, 21, 2021 09:47</span>
+              <span className="text-current">Aug, 22, 2021 07:12</span>
             </td>
           </tr>
-          <tr>
+          {/* <tr>
             <td data-label="From">
               <span className="text-heading font-semibold">Robert Fox</span>
             </td>
@@ -58,7 +56,7 @@ const Table = () => {
             <td data-label="Updated At">
               <span className="text-current">Apr, 21, 2021 09:47</span>
             </td>
-          </tr>
+          </tr> */}
         </tbody>
       </table>
     </div>

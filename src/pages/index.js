@@ -27,21 +27,17 @@ export default function Home() {
             <div className="col-md-4">
               <Card
                 name="Dollars"
-                amount="$252.00"
+                amount="$1,000.00"
                 flag="/images/brand/usa.svg"
               />
             </div>
             <div className="col-md-4">
-              <Card
-                name="Euros"
-                amount="€347.00"
-                flag="/images/brand/euro.svg"
-              />
+              <Card name="Euros" amount="€0.00" flag="/images/brand/euro.svg" />
             </div>
             <div className="col-md-4">
               <Card
                 name="Nairas"
-                amount="₦102.00"
+                amount="₦0.00"
                 flag="/images/brand/nigeria.svg"
               />
             </div>
